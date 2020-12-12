@@ -66,6 +66,10 @@ public class ProductView {
 	private Date modifiedTs;
 	
 	//getters and setters
+	public long getId() {
+		return id;
+	}
+	
 	public String getName() {
 		return name;
 	}
