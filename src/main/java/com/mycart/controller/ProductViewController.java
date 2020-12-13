@@ -13,9 +13,10 @@ import com.mycart.model.ProductView;
 import com.mycart.repository.ProductViewRepository; 
 
 
-@CrossOrigin
+
 @RestController
 @RequestMapping("/pvc")
+@CrossOrigin
 public class ProductViewController {
 	@Autowired
 	ProductViewRepository repository;
