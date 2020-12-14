@@ -1,6 +1,22 @@
 INSERT INTO public.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
-VALUES('atestemail.com', 1, now(), 'test@email.com', 'sam', 'Y', 'simon', 1, 1, now(), '1234567890', '1234567890', 'abc1', 1, 1, 'manager', 'test@email.com');
+VALUES('atestemail.com', 1, now(), 'test@email.com', 'sam', 'Y', 'simon', 1, 1, now(), '1234567890', '1234567890', 'abc1', 1, 1, 'something', 'test@email.com');
+
+INSERT INTO public.users
+(a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
+VALUES('atestemail.com', 1, now(), 'test@email.com', 'sam', 'Y', 'simon', 1, 1, now(), '1234567890', '1234567890', 'abc1', 2, 1, 'something', 'test1@email.com');
+
+INSERT INTO public.users
+(a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
+VALUES('atestemail.com', 1, now(), 'test@email.com', 'sam', 'Y', 'simon', 1, 1, now(), '1234567890', '1234567890', 'abc1', 3, 1, 'something', 'test2@email.com');
+
+INSERT INTO public.users
+(a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
+VALUES('atestemail.com', 1, now(), 'test@email.com', 'sam', 'Y', 'simon', 1, 1, now(), '1234567890', '1234567890', 'abc1', 4, 1, 'something', 'test3@email.com');
+
+INSERT INTO public.users
+(a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
+VALUES('atestemail.com', 1, now(), 'test@email.com', 'sam', 'Y', 'simon', 1, 1, now(), '1234567890', '1234567890', 'abc1', 5, 1, 'something', 'test4@email.com');
 
 INSERT INTO public.product_view
 (brand, category_id, created_ts, description, discount, end_date, exp_date, mfd_date, modified_ts, "name", price, start_date)
