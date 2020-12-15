@@ -1,0 +1,17 @@
+### LOGIN DETAILS USERS 
+
+1>CUSTOMER
+userName:shivmunda@gmail.com
+pwd:shiv1
+
+2>SUPPLIER
+userName:madhugt@gmail.com
+pwd:madhu1
+
+3>STORE OWNER
+userName:swagatamandal@gmail.com
+pwd:swagat1
+
+4>SUPER USER
+userName:viswachandreddy@gmail.com
+pwd:viswachand1
