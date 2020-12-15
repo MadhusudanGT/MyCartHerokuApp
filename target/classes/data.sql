@@ -4,7 +4,7 @@ VALUES('shivmunda1@gmail.com', 1, now(), 'shivmunda@gmail.com', 'Shiv', 'Y', 'Mu
 
 INSERT INTO public.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
-VALUES('madhugt1@gmail.com', 2, now(), 'madhugt@gmail.com', 'Madhusudan', 'Y', 'GT', 1, 1, now(), '99454449XX', '7884548XXX', 'madhu1', 2, 1, 'supplier', 'madhugt@email.com');
+VALUES('madhugt1@gmail.com', 2, now(), 'madhugt@gmail.com', 'Madhusudan', 'Y', 'GT', 1, 1, now(), '99454449XX', '7884548XXX', 'madhu1', 2, 1, 'supplier', 'madhugt@gmail.com');
 
 INSERT INTO public.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
@@ -16,7 +16,7 @@ VALUES('umeshkatakam1@gmail.com', 4, now(), 'umeshkatam@gmail.com', 'Umesh', 'Y'
 
 INSERT INTO public.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
-VALUES('viswachandreddy1@gmail.com', 5, now(), 'viswachandreddy@gmail.com', 'Viswachand', 'Y', 'Reddy', 1, 1, now(), '98771499XX', '8994944XXX', 'viswachand1', 5, 1, 'super user', 'test4@email.com');
+VALUES('viswachandreddy1@gmail.com', 5, now(), 'viswachandreddy@gmail.com', 'Viswachand', 'Y', 'Reddy', 1, 1, now(), '98771499XX', '8994944XXX', 'viswachand1', 5, 1, 'super user', 'viswachandreddy@gmail.com');
 
 INSERT INTO public.product_view
 (brand, category_id, created_ts, description, discount, end_date, exp_date, mfd_date, modified_ts, "name", price, start_date)
