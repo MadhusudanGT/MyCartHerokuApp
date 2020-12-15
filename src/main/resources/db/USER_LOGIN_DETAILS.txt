@@ -1,17 +1,21 @@
 ### LOGIN DETAILS USERS 
 
-1>CUSTOMER
+1>CUSTOMER (role_id:1)
 userName:shivmunda@gmail.com
 pwd:shiv1
 
-2>SUPPLIER
+2>SUPPLIER (role_id:2)
 userName:madhugt@gmail.com
 pwd:madhu1
 
-3>STORE OWNER
+3>STORE OWNER (role_id:3)
 userName:swagatamandal@gmail.com
 pwd:swagat1
 
-4>SUPER USER
+4>STORE MANAGER (role_id:4)
+userName:umeshkatakam@gmail.com
+pwd:umesh1
+
+4>SUPER USER (role_id:5)
 userName:viswachandreddy@gmail.com
 pwd:viswachand1
