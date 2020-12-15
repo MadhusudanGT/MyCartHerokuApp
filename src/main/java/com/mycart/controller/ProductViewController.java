@@ -8,15 +8,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 import com.mycart.exception.ResourceNotFoundException;
 import com.mycart.model.ProductView;
 import com.mycart.repository.ProductViewRepository; 
 
 
-
+@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("/pvc")
-@CrossOrigin
 public class ProductViewController {
 	@Autowired
 	ProductViewRepository repository;
@@ -39,37 +39,18 @@ public class ProductViewController {
 		return repository.save(product);
 	}
 
-	@PutMapping("/product/{id}")
-	public ResponseEntity<ProductView> updateProduct(@PathVariable(value = "id") long id,
-			 @RequestBody ProductView prod) throws ResourceNotFoundException {
-		ProductView product = repository.findById(id)
-				.orElseThrow(() -> new ResourceNotFoundException("Productnot found for this id :: " + id));
-
-		product.setName(prod.getName());
-		product.setPrice(prod.getPrice());
-		product.setDescription(prod.getDescription());
-		product.setDiscount(prod.getDiscount());
-		product.setCategoryId(prod.getCategoryId());
-		product.setBrand(prod.getBrand());
-		product.setExpDate(prod.getExpDate());
-		product.setMfdDate(prod.getMfdDate());
-		product.setStartDate(prod.getStartDate());
-		product.setEndDate(prod.getEndDate());
-		
-		final ProductView updated = repository.save(product);
-		return ResponseEntity.ok(updated);
+	@PutMapping(path="/product/{id}",consumes = "application/json", produces = "application/json")
+	public ProductView saveOrUpdateEmployee(@RequestBody ProductView product) {
+		 repository.save(product);
+		 return product;
 	}
+	
 
 	@DeleteMapping("/product/{id}")
-	public Map<String, Boolean> deleteProdcut(@PathVariable(value = "id") long id)
-			throws ResourceNotFoundException {
-		ProductView product = repository.findById(id)
-				.orElseThrow(() -> new ResourceNotFoundException("Product not found for this id :: " + id));
-
-		repository.delete(product);
-		Map<String, Boolean> response = new HashMap<>();
-		response.put("deleted", Boolean.TRUE);
-		return response;
-	
-}
+	public String deleteProduct(@PathVariable("id") Long id) throws ResourceNotFoundException {
+		System.out.println("=======================");
+		 repository.deleteById(id);
+		 	 
+			return "Deleted";
+	}
 }
