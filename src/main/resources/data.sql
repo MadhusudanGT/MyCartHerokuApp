@@ -18,3 +18,205 @@ INSERT INTO mycart.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
 VALUES('viswachandreddy1@gmail.com', 5, now(), 'viswachandreddy@gmail.com', 'Viswachand', 'Y', 'Reddy', 1, 1, now(), '98771499XX', '8994944XXX', 'viswachand1', 5, 1, 'super user', 'viswachandreddy@gmail.com');
  
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Medium Sized potato', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Potato', 40, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Medium Sized Onion', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Onion', 30, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Medium Sized Tomato', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Tomato', 35, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Large Cabbage', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Cabbage', 15, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Large Cauliflower', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Cauliflower', 40, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Large Medium small Brinjal', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Brinjal', 40, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Medium Beans-French,Ring', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Beans', 40, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Medium Ladies Finger', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Ladies Finger', 60, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Medium Bitter Gourd', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Bitter Gourd', 28, '2020-10-28', 10, '500g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Large Cauliflower', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Cauliflower', 40, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Mushrooms-Button', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Button', 44, '2020-10-28', 10, '200g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Pear-Green,Imported', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Pear', 250, '2020-10-28', 10, '250kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Mixed Capsicum', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Capsicum', 159, '2020-10-28', 10, '500g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Ginger-Organically Grown', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Ginger', 100, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Beetroot-Grade A', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Beetroot', 16, '2020-10-28', 10, '500g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Musk Melon', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Melon', 25, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Lettuce-Iceberg', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Lettuce', 23, '2020-10-28', 10, '500g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Cucumber/Kakdi', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Cucumber', 20, '2020-10-28', 10, '500g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Garlic-Organically', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Garlic', 66, '2020-10-28', 10, '250g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 1, 0, 'Butterhead Lettuce', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Butterhead Lettuce', 59, '2020-10-28', 10, '500g');
+
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Apple-Red Delicious,Regular', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Apple', 120, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Mango-Banganapali/Badam', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Mango', 250, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Banana-Red', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Apple', 129, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Grapes-Green Seedless', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Grapes', 250, '2020-10-28', 10, '500g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Pomegranate-Kesar', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Pomegranate', 250, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Fresho Water Melon', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Watermelon', 30, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Apple-Royal Gala', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Apple', 120, '2020-10-28', 10, '500g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Banana Robusta', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Banana', 33, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Kiwi-Green', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Kiwi', 120, '2020-10-28', 10, '400g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 2, 0, 'Papaya-small', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Papaya', 42, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Long Grain Basmati Rice', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Basmati', 275, '2020-10-28', 10, '5kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Long Grain Baba', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Baba Rice', 28, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Thick Poha', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Poha', 52, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Toor Daal/Arhar Daal', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Arhar Daal/Toor', 650, '2020-10-28', 10, '5kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Kabuli Chana/Kabuli Harabara', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Kabuli Chana', 105, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Masoor Daal', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Masoor Daal', 25, '2020-10-28', 10, '200g');
+
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Urad Daal', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Urad Daal', 100, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Moong Daal', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Moong Daal', 120, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Almond/Badam', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Almond', 600, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Raisin/kashmiri', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Raisin', 145, '2020-10-28', 10, '100g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Walnut', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Walnut', 350, '2020-10-28', 10, '200g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Dates', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Dates', 300, '2020-10-28', 10, '200g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Kabuli Chana/Kabuli Harabara', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Kabuli Chana', 105, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Masoor Daal', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Masoor Daal', 25, '2020-10-28', 10, '200g');
+
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Atta Whole Wheat', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Ashirvaad Atta', 180, '2020-10-28', 10, '5kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Maida', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Maida', 50, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Besan', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Besan', 80, '2020-10-28', 10, '1kg');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Red Chilli Powder', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Red Chilli Powder', 65, '2020-10-28', 10, '100g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Haldi', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Walnut', 80, '2020-10-28', 10, '200g');
+
+INSERT INTO mycart.product
+(brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
+VALUES('Tata Fresh', 3, 0, 'Chicken Masala', 10, '2020-12-30', '2021-01-30', 0, '2020-09-29', 'Dates', 80, '2020-10-28', 10, '100g');
