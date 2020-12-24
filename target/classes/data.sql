@@ -1,22 +1,22 @@
 INSERT INTO mycart.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
-VALUES('shivmunda1@gmail.com', 1, now(), 'shivmunda@gmail.com', 'Shiv', 'Y', 'Munda', 1, 1, now(), '87091194XX', '9785885XXX', 'shiv1', 1, 1, 'customer', 'shivmunda@gmail.com');
+VALUES('shivmunda1@gmail.com', 1, now(), 'shivmunda@gmail.com', 'Shiv', 'Y', 'Munda', 1, 1, now(), '87091194XX', '9785885XXX', '$2y$10$GndEUwh.6TZ7Pbwj/ndqWO4LEhlsopbdTDa9Ho/HBEb0n6rQ7xjce', 1, 1, 'customer', 'shivmunda@gmail.com');
 
 INSERT INTO mycart.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
-VALUES('madhugt1@gmail.com', 2, now(), 'madhugt@gmail.com', 'Madhusudan', 'Y', 'GT', 1, 1, now(), '99454449XX', '7884548XXX', 'madhu1', 2, 1, 'supplier', 'madhugt@gmail.com');
+VALUES('madhugt1@gmail.com', 2, now(), 'madhugt@gmail.com', 'Madhusudan', 'Y', 'GT', 1, 1, now(), '99454449XX', '7884548XXX', '$2y$10$YW5ye5gbi2uxF8QMyl3xe.7yiGNmjLMVzT/zu69JOk.8Z8uC.WMZa', 2, 1, 'supplier', 'madhugt@gmail.com');
 
 INSERT INTO mycart.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
-VALUES('swagatamandal1@gmail.com', 3, now(), 'swagatamandal@gmail.com', 'Swagata', 'Y', 'Mandal', 1, 1, now(), '84694981XX', '8004944XXX', 'swagata1', 3, 1, 'store owner', 'swagatamandal@gmail.com');
+VALUES('swagatamandal1@gmail.com', 3, now(), 'swagatamandal@gmail.com', 'Swagata', 'Y', 'Mandal', 1, 1, now(), '84694981XX', '8004944XXX', '$2y$10$y4.2mMLt1gOi/d2pG1Lnyu4Yu/ksuX22bbB2SMSnH4dUd6QV6eW1e', 3, 1, 'store owner', 'swagatamandal@gmail.com');
 
 INSERT INTO mycart.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
-VALUES('umeshkatakam1@gmail.com', 4, now(), 'umeshkatam@gmail.com', 'Umesh', 'Y', 'Katakam', 1, 1, now(), '78784499XX', '98711545XXX', 'umesh1', 4, 1, 'store manager', 'umeshkatakam@gmail.com');
+VALUES('umeshkatakam1@gmail.com', 4, now(), 'umeshkatam@gmail.com', 'Umesh', 'Y', 'Katakam', 1, 1, now(), '78784499XX', '98711545XXX', '$2y$10$WMOS4cZyYS9mlR7597nmWelk6cLp.b1SHa/3QeUCDenibXFRATSJq', 4, 1, 'store manager', 'umeshkatakam@gmail.com');
 
 INSERT INTO mycart.users
 (a_email, addr_id, created_ts, email, first_name, is_active, last_name, manager_id, modified_by_id, modified_ts, phone1, phone2, pwd, role_id, store_id, tag, user_name)
-VALUES('viswachandreddy1@gmail.com', 5, now(), 'viswachandreddy@gmail.com', 'Viswachand', 'Y', 'Reddy', 1, 1, now(), '98771499XX', '8994944XXX', 'viswachand1', 5, 1, 'super user', 'viswachandreddy@gmail.com');
+VALUES('viswachandreddy1@gmail.com', 5, now(), 'viswachandreddy@gmail.com', 'Viswachand', 'Y', 'Reddy', 1, 1, now(), '98771499XX', '8994944XXX', '$2y$10$uEnAznWtNItR3od5gxx0HO8kt98cYGglwmujNgSIzHiDjWGeOqLX.', 5, 1, 'super user', 'viswachandreddy@gmail.com');
  
 INSERT INTO mycart.product
 (brand, category_id, decreae_price, description, discount, end_date, exp_date, increase_price, mfd_date, "name", price, start_date, stock, weight)
