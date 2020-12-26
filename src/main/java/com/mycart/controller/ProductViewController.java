@@ -14,7 +14,7 @@ import com.mycart.model.ProductView;
 import com.mycart.repository.ProductViewRepository; 
 
 
-@CrossOrigin(origins="*")
+@CrossOrigin 
 @RestController
 @RequestMapping("/pvc")
 public class ProductViewController {
