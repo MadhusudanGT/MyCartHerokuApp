@@ -73,6 +73,13 @@ public class UserController {
 		User user = this.userrepository.findById(uid)
 				.orElseThrow(() -> new ResourceNotFoundException("User not found for this id :: " + uid));
 
+		if(userDetails.getPwd()==null)
+			userDetails.setPwd(user.getPwd());
+			else {
+			BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(10); // Strength set as 10
+			String encodedPassword = encoder.encode(userDetails.getPwd());
+			userDetails.setPwd(encodedPassword);
+			}
 		
 		final User updatedUser = this.userrepository.save(userDetails);
 		return ResponseEntity.ok(updatedUser);
