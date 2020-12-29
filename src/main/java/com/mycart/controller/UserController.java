@@ -25,6 +25,7 @@ import com.mycart.repository.UserRepository;
 import com.mycart.util.JwtUtil;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @RestController
 @RequestMapping("/ur")
@@ -53,11 +54,15 @@ public class UserController {
 				.orElseThrow(() -> new ResourceNotFoundException("User not found for this id :: " + uid));
 		return ResponseEntity.ok().body(user);
 	}
+	 
 	
 	
 	//for posting a user
 	@PostMapping("/users")
 	public User saveUser(@RequestBody User user) {
+		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(10); // Strength set as 10
+		String encodedPassword = encoder.encode(user.getPwd());
+		user.setPwd(encodedPassword);
 		return this.userrepository.save(user);
 	}
 	

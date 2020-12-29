@@ -10,7 +10,7 @@ pwd:madhu1
 
 3>STORE OWNER (role_id:3)
 userName:swagatamandal@gmail.com
-pwd:swagat1
+pwd:swagata1
 
 4>STORE MANAGER (role_id:4)
 userName:umeshkatakam@gmail.com

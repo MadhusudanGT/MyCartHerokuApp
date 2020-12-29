@@ -43,25 +43,29 @@ public class ProductView {
 	private int categoryId;
 	
 	@Column(name="expDate")
+	@Temporal(TemporalType.DATE)
 	private Date expDate;
 	
 	@Column(name="mfdDate")
+	@Temporal(TemporalType.DATE)
 	private Date mfdDate;
 	
 	@Column(name="brand")
 	private String brand;
 	
 	@Column(name="startDate")
+	@Temporal(TemporalType.DATE)
 	private Date startDate;
 	
 	@Column(name="endDate")
+	@Temporal(TemporalType.DATE)
 	private Date endDate;
 	
 	
 	@Column(name="increasePrice")
 	private int increasePrice;	
 
-	@Column(name="decreaePrice")
+	@Column(name="decreasePrice")
 	private int decreasePrice;
 	
 	@Column (name="weight")
@@ -72,18 +76,11 @@ public class ProductView {
 	
 	 
   
-
+//	setters and getters 	
+	
 	public String getWeight() {
 		return weight;
 	}
-
-
-
-
-
-
-
-
 
 
 	public void setWeight(String weight) {
@@ -91,25 +88,9 @@ public class ProductView {
 	}
 
 
-
-
-
-
-
-
-
-
 	public int getStock() {
 		return stock;
 	}
-
-
-
-
-
-
-
-
 
 
 	public void setStock(int stock) {
@@ -117,24 +98,9 @@ public class ProductView {
 	}
 
 
-
-
-
-
-
-
-
-
 	public long getId() {
 		return id;
 	}
-
-
-
-
-
-
-
 
 
 
@@ -144,23 +110,9 @@ public class ProductView {
 
 
 
-
-
-
-
-
-
-
 	public String getName() {
 		return name;
 	}
-
-
-
-
-
-
-
 
 
 
@@ -169,38 +121,14 @@ public class ProductView {
 	}
 
 
-
-
-
-
-
-
-
-
 	public float getPrice() {
 		return price;
 	}
 
 
-
-
-
-
-
-
-
-
 	public void setPrice(float price) {
 		this.price = price;
 	}
-
-
-
-
-
-
-
-
 
 
 	public String getDescription() {
@@ -209,24 +137,9 @@ public class ProductView {
 
 
 
-
-
-
-
-
-
-
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
-
-
-
-
-
-
-
 
 
 	public int getDiscount() {
@@ -234,24 +147,9 @@ public class ProductView {
 	}
 
 
-
-
-
-
-
-
-
-
 	public void setDiscount(int discount) {
 		this.discount = discount;
 	}
-
-
-
-
-
-
-
 
 
 
@@ -261,23 +159,9 @@ public class ProductView {
 
 
 
-
-
-
-
-
-
-
 	public void setCategoryId(int categoryId) {
 		this.categoryId = categoryId;
 	}
-
-
-
-
-
-
-
 
 
 
@@ -285,51 +169,18 @@ public class ProductView {
 		return expDate;
 	}
 
-
-
-
-
-
-
-
-
-
 	public void setExpDate(Date expDate) {
 		this.expDate = expDate;
 	}
-
-
-
-
-
-
-
-
-
 
 	public Date getMfdDate() {
 		return mfdDate;
 	}
 
 
-
-
-
-
-
-
-
-
 	public void setMfdDate(Date mfdDate) {
 		this.mfdDate = mfdDate;
 	}
-
-
-
-
-
-
-
 
 
 
@@ -339,24 +190,9 @@ public class ProductView {
 
 
 
-
-
-
-
-
-
-
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-
-
-
-
-
-
-
-
 
 
 	public Date getStartDate() {
@@ -364,25 +200,9 @@ public class ProductView {
 	}
 
 
-
-
-
-
-
-
-
-
 	public void setStartDate(Date startDate) {
 		this.startDate = startDate;
 	}
-
-
-
-
-
-
-
-
 
 
 	public Date getEndDate() {
@@ -390,38 +210,14 @@ public class ProductView {
 	}
 
 
-
-
-
-
-
-
-
-
 	public void setEndDate(Date endDate) {
 		this.endDate = endDate;
 	}
 
 
-
-
-
-
-
-
-
-
 	public int getIncreasePrice() {
 		return increasePrice;
 	}
-
-
-
-
-
-
-
-
 
 
 	public void setIncreasePrice(int increasePrice) {

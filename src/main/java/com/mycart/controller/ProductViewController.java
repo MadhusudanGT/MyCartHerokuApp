@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 import com.mycart.exception.ResourceNotFoundException;
+import com.mycart.model.Order;
 import com.mycart.model.ProductView;
 import com.mycart.repository.ProductViewRepository; 
 
@@ -50,7 +51,10 @@ public class ProductViewController {
 	public String deleteProduct(@PathVariable("id") Long id) throws ResourceNotFoundException {
 		System.out.println("=======================");
 		 repository.deleteById(id);
-		 	 
+	 
 			return "Deleted";
 	}
+	
+	
+	
 }
