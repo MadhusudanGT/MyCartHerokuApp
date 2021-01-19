@@ -16,61 +16,75 @@ import javax.persistence.TemporalType;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.ValueGenerationType;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 @Entity
 @Table(name = "product" )
+@ApiModel(description="ProductView Model")
 public class ProductView {
-
+@ApiModelProperty(notes="ID of the prodcut",name="id",required=true,value="111")
 	@Id
-	 
 	@Column(name="id")
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
 	
+@ApiModelProperty(notes="name of the product",name="name",required=true,value="Apple")
 	@Column(name="name")
 	private String name;
 	
+@ApiModelProperty(notes="cost of the product",name="price",required=true,value="20")
 	@Column(name="price")
 	private float price;
 	
+@ApiModelProperty(notes="product inoformation",name="description",required=true,value="health product")
 	@Column(name="description")
 	private String description;
 	 
-
+@ApiModelProperty(notes="special discount ",name="discount",required=true,value="20")
 	@Column(name="discount")
 	private int discount;
 
+@ApiModelProperty(notes="product belong to which category",name="category",required=true,value="1")
 	@Column(name="categoryId")
 	private int categoryId;
-	
+
+@ApiModelProperty(notes="experied date of the product",name="endDate",required=true,value="2021-02-02")
 	@Column(name="expDate")
 	@Temporal(TemporalType.DATE)
 	private Date expDate;
 	
+@ApiModelProperty(notes="manufactured Date",name="startDate",required=true,value="2019-02-02")
 	@Column(name="mfdDate")
 	@Temporal(TemporalType.DATE)
 	private Date mfdDate;
 	
+@ApiModelProperty(notes="Product company name",name="brand",required=true,value="shyShine")
 	@Column(name="brand")
 	private String brand;
 	
+@ApiModelProperty(notes="manufactured Date",name="startDate",required=true,value="2019-02-02")
 	@Column(name="startDate")
 	@Temporal(TemporalType.DATE)
 	private Date startDate;
 	
+@ApiModelProperty(notes="experied date of the product",name="endDate",required=true,value="2021-02-02")
 	@Column(name="endDate")
 	@Temporal(TemporalType.DATE)
 	private Date endDate;
 	
-	
+
 	@Column(name="increasePrice")
 	private int increasePrice;	
 
 	@Column(name="decreasePrice")
 	private int decreasePrice;
 	
+	@ApiModelProperty(notes="product weight per kg",name="weight",required=true,value="2")
 	@Column (name="weight")
 	private String weight;
 	
+	@ApiModelProperty(notes="Total of Product stocks remain",name="Stock",required=true,value="10")
 	@Column(name="stock")
 	private int stock;
 	
